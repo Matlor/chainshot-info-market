@@ -1,0 +1,42 @@
+.form-box {
+	width: 600px;
+	margin: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+
+	box-sizing: border-box;
+}
+
+.request-input-field {
+	width: 100%;
+	padding: 0px;
+	border: 0px;
+	height: 60px;
+
+	margin: 20px 0px 20px 0px;
+}
+
+.reward-input-field {
+	width: 100%;
+	padding: 0px;
+	border: 0px;
+	height: 30px;
+	margin: 20px 0px 20px 0px;
+}
+
+.deadline-input-field {
+	width: 100%;
+	padding: 0px;
+	border: 0px;
+	height: 30px;
+	margin: 20px 0px 20px 0px;
+}
+
+.submit-input-field {
+	width: 100%;
+	padding: 0px;
+	border: 0px;
+	height: 30px;
+	margin: 20px 0px 20px 0px;
+}
