@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/mathiaslorenceau/Desktop/my-chainshot-folder/information-market/prototype-2-react-ipfs/contracts/InformationMarket.sol": {
-      "lastModificationDate": 1639001449253,
-      "contentHash": "bb418e4e1da278e8798f755a278c6b93",
+    "/Users/mathiaslorenceau/Coding/information-market/contracts/InformationMarket.sol": {
+      "lastModificationDate": 1642426443988,
+      "contentHash": "646fb1e2a6cdc1b5e373945d94e48559",
       "sourceName": "contracts/InformationMarket.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -38,8 +38,8 @@
         "InformationMarket"
       ]
     },
-    "/Users/mathiaslorenceau/Desktop/my-chainshot-folder/information-market/prototype-2-react-ipfs/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1637258458534,
+    "/Users/mathiaslorenceau/Coding/information-market/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1642415978754,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {

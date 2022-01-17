@@ -9,18 +9,19 @@ const Account = () => {
 	window.ethereum.on("accountsChanged", async () => {
 		let address = await ethereum.testMetamask();
 
-		if (ref.current == "") {
+		if (ref.current === "") {
 			ref.current = address;
 			setAccount(address);
 		}
 
-		if (ref.current != address) {
+		if (ref.current !== address) {
 			ref.current = address;
 			setAccount(address);
 		}
 	});
 
-	let accounts = [
+	// Helpful for testing
+	/* 	let accounts = [
 		{
 			address: "0x24876602373858cF6c6f9429e37b8fC04E5c1e20",
 			name: "Arbitor",
@@ -39,13 +40,15 @@ const Account = () => {
 		},
 	];
 
-	let accountName = "";
+	let accountName = ""; */
 
-	for (let i = 0; i < accounts.length; i++) {
-		if (accounts[i].address.toLocaleLowerCase() == account) {
+	
+	// Helpful for testing
+	/* 	for (let i = 0; i < accounts.length; i++) {
+		if (accounts[i].address.toLocaleLowerCase() === account) {
 			accountName = accounts[i].name;
 		}
-	}
+	} */
 
 	const testMeta = async (e) => {
 		e.preventDefault();
@@ -59,7 +62,7 @@ const Account = () => {
 			</Button>
 			<Text fontSize="xl">
 				{account}
-				{accountName}
+				
 			</Text>
 		</div>
 	);

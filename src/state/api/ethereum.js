@@ -5,7 +5,7 @@ import compiledContract from "../../artifacts/contracts/InformationMarket.sol/In
 let abi = compiledContract.abi;
 
 // To do: restructure
-// this is probably not necessary
+// the following providers are probably not required:
 const metamaskProvider = new ethers.providers.Web3Provider(window.ethereum);
 const defaultProvider = new ethers.providers.getDefaultProvider("rinkeby");
 const defaultContract = new ethers.Contract(

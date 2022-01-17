@@ -41,7 +41,7 @@ const Deadlines = ({ deadlines }) => {
 		let time = Date.now();
 		setTime(time);
 
-		if (key != inter) {
+		if (key !== inter) {
 			setKey(inter);
 		}
 	}, 3000);
@@ -58,7 +58,7 @@ const Deadlines = ({ deadlines }) => {
 		return arr.map((deadline, index) => {
 			let color;
 
-			if (index == key) {
+			if (index === key) {
 				color = "green";
 			}
 
